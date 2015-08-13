@@ -8,4 +8,13 @@
 			list-style: none;
 		}
 	}
+.portrait {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	background: orange;
+	margin-top: 50px;
+	overflow: hidden;
+}
+
 }

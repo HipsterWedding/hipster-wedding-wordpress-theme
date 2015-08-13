@@ -2,19 +2,20 @@
 
 <div class="main">
   <div class="container">
+    <div class="wrapper">
 
-    <div class="content">
-      <?php // Start the loop ?>
-      <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+      <div class="content">
+        <?php // Start the loop ?>
+        <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-        <h2><?php the_title(); ?></h2>
-        <?php the_content(); ?>
+          <h2><?php the_title(); ?></h2>
+          <?php the_content(); ?>
 
-      <?php endwhile; // end the loop?>
-    </div> <!-- /,content -->
+        <?php endwhile; // end the loop?>
+      </div> <!-- /,content -->
 
-    <?php get_sidebar(); ?>
-
+      <?php get_sidebar(); ?>
+    </div><!-- /.wrapper -->
   </div> <!-- /.container -->
 </div> <!-- /.main -->
 

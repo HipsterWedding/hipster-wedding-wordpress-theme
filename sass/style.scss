@@ -24,7 +24,7 @@ img {
 }
 
 body {
-	background: #FFFAF0;
+	background: white;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -32,10 +32,21 @@ body {
 	margin: 0 auto;
 }
 
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.main-img {
+	margin-top: -150px;
+	border: 10px solid white;
+}
+
 .content {
 	float: left;
 	width: 65%;
-	margin-right: 5%;
+	margin-right: 40px;
+	margin-left: 10px;
 }
 
 .full {
@@ -43,7 +54,7 @@ body {
 }
 
 h1 {
-	font-weight: 100;
+	font-weight: bolder;
 }
 
 h3 {
@@ -74,9 +85,9 @@ h3 {
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	align-items: center;
-	padding-top: 20px;
-    height: 190px;
+	// align-items: center;
+	padding-top: 35px;
+    height: 300px;
     background: #E0FFFF;
     text-transform: uppercase;
 }
@@ -90,13 +101,14 @@ ul.menu li a {
 	text-transform: uppercase;
 	color: black;
 	padding: 25px;
-	font-size: 10px;
+	font-size: 16px;
 	font-weight: 200;
 
 }
 
 ul.menu li a:hover {
 	color: #E0FFFF;
+	text-shadow: 1px 1px 0 black;
 }
 
 input.searchsubmit {

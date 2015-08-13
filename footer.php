@@ -1,7 +1,11 @@
 <footer>
   <div class="container">
-    <p>&copy; Tarah Kennedy & Anya Craig <?php echo date('Y'); ?></p>
-    
+     <?php wp_nav_menu( array(
+      'container' => false,
+      'theme_locations' => 'footer-nav'
+    )); ?>
+    <p class="copyright">&copy; Tarah Kennedy & Anya Craig <?php echo date('Y'); ?></p>
+
   </div>
 </footer>
 
