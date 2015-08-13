@@ -33,11 +33,13 @@
     </h1>
     </div>
 
+
    
     <!--   <?php the_post_thumbnail('large-size'); ?> -->
     
 
     
+
   </div> <!-- /.container -->
 </header><!--/.header-->
 
