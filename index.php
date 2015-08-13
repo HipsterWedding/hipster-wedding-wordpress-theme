@@ -3,13 +3,15 @@
 
 <div class="main">
   <div class="container">
+  	<div class="wrapper">
 
-    <div class="content">
-    		<?php get_template_part( 'loop', 'index' );	?>
-    </div> <!--/.content -->
+	    <div class="content">
+	    		<?php get_template_part( 'loop', 'index' );	?>
+	    </div> <!--/.content -->
 
-    <?php get_sidebar(); ?>
+	    <?php get_sidebar(); ?>
 
+	</div><!-- /.wrapper -->
   </div> <!-- /.container -->
 </div> <!-- /.main -->
 
