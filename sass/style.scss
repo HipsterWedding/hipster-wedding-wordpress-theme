@@ -46,11 +46,25 @@ h1 {
 	font-weight: 100;
 }
 
+h3 {
+	color: black;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
 .header a {
 	color: black;
 	font-size: 45px;
 	font-weight: 200;
 	
+}
+
+.textwidget {
+	color: black;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: 200;
 }
 
 .container {
@@ -85,6 +99,38 @@ ul.menu li a:hover {
 	color: #E0FFFF;
 }
 
+input.searchsubmit {
+	background-color: #E0FFFF;
+	color: black;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: 200;
+	border: 1px solid #E0FFFF;
+
+}
+
+input#s {
+	background-color: #FFFAF0;
+	border: solid 1px black ;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: 200;
+	color: black;
+}
+
+// header img {
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// }
+
+
+.sidebar ul li a {
+		color: black;
+		font-family: 'Lato', sans-serif;
+		text-transform: uppercase;
+		font-weight: 300;
+}
 
 
 

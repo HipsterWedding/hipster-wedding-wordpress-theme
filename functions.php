@@ -13,7 +13,7 @@ function theme_setup() {
 	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size(120, 90, true);
 	add_image_size('square', 150, 150, true);
-	add_image_size('large-size', 1500, 300, true);
+	add_image_size('large-size', 1000, 1000, true);
 
 
 
