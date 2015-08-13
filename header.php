@@ -34,7 +34,7 @@
     </div>
 
    
-      // <?php the_post_thumbnail('large-size'); ?>
+    <!--   <?php the_post_thumbnail('large-size'); ?> -->
     
 
     
