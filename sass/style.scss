@@ -24,11 +24,11 @@ img {
 }
 
 body {
-	color: #333;
+	background: #FFFAF0;
+	font-family: 'Lato', sans-serif;
 }
 
 .container {
-	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -41,6 +41,64 @@ body {
 .full {
 	width: 100%;
 }
+
+h1 {
+	font-weight: 100;
+}
+
+.header a {
+	color: black;
+	font-size: 45px;
+	font-weight: 200;
+	
+}
+
+.container {
+	width: 100%;
+}
+.header {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+	padding-top: 20px;
+    height: 190px;
+    background: #E0FFFF;
+    text-transform: uppercase;
+}
+
+ul.menu {
+	padding: 20px;
+}
+
+ul.menu li a {
+	background: none;
+	text-transform: uppercase;
+	color: black;
+	padding: 25px;
+	font-size: 10px;
+	font-weight: 200;
+
+}
+
+ul.menu li a:hover {
+	color: #E0FFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
