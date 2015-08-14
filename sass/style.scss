@@ -25,7 +25,9 @@ img {
 
 body {
 	background: white;
+	color: black;
 	font-family: 'Lato', sans-serif;
+	font-weight: 300;
 }
 
 .container {
@@ -35,11 +37,6 @@ body {
 .wrapper {
 	max-width: 1000px;
 	margin: 0 auto;
-}
-
-.main-img {
-	margin-top: -150px;
-	border: 10px solid white;
 }
 
 .content {
@@ -57,41 +54,34 @@ h1 {
 	font-weight: bolder;
 }
 
-h3 {
-	color: black;
-	font-family: 'Lato', sans-serif;
+h2 {
 	text-transform: uppercase;
 	font-weight: 300;
 }
 
-.header a {
-	color: black;
-	font-size: 45px;
-	font-weight: 200;
-	
-}
-
-.textwidget {
-	color: black;
-	font-family: 'Lato', sans-serif;
+h3 {
 	text-transform: uppercase;
-	font-weight: 200;
+	font-weight: 300;
 }
 
-.container {
-	width: 100%;
-}
+// HEADER
 .header {
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	// align-items: center;
 	padding-top: 35px;
     height: 300px;
     background: #E0FFFF;
     text-transform: uppercase;
 }
 
+.header a {
+	color: black;
+	font-size: 45px;
+	font-weight: 200;
+}
+
+// TOP NAV
 ul.menu {
 	padding: 20px;
 }
@@ -102,7 +92,7 @@ ul.menu li a {
 	color: black;
 	padding: 25px;
 	font-size: 16px;
-	font-weight: 200;
+	font-weight: 300;
 
 }
 
@@ -111,42 +101,35 @@ ul.menu li a:hover {
 	text-shadow: 1px 1px 0 black;
 }
 
-input.searchsubmit {
-	background-color: #E0FFFF;
+// PAGE-HOME IMAGE
+.main-img img {
+	margin-top: -150px;
+	border: 10px solid white;
+}
+
+
+// SIDEBAR
+
+// TEXT AREA
+.textwidget {
 	color: black;
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
 	font-weight: 200;
-	border: 1px solid #E0FFFF;
-
+	margin-bottom: 40px;
 }
 
-input#s {
-	background-color: #FFFAF0;
-	border: solid 1px black ;
-	font-family: 'Lato', sans-serif;
-	text-transform: uppercase;
-	font-weight: 200;
-	color: black;
+.portrait {
+	margin: 50px auto 0;
 }
 
-// header img {
-// 	display: flex;
-// 	justify-content: center;
-// 	align-items: center;
-// }
-
-
-.sidebar ul li a {
-		color: black;
-		font-family: 'Lato', sans-serif;
-		text-transform: uppercase;
-		font-weight: 300;
+h3.widget-title {
+	text-align: center;
 }
 
-
-
-
+.text-widget {
+	text-align: center;
+}
 
 
 
