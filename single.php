@@ -2,6 +2,9 @@
 
 <div class="main">
   <div class="container">
+    <div class="wrapper">
+      <div class="main-img"><?php echo get_the_post_thumbnail($post_id, 'header-image'); ?></div> 
+    </div>
 
     <div class="content">
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>

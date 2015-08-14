@@ -9,6 +9,7 @@ get_header();  ?>
 <div class="main">
   <div class="container">
   	<div class="wrapper">
+  		<div class="main-img"><?php echo get_the_post_thumbnail($post_id, 'header-image'); ?></div> 
 
 	    <?php // Start the loop ?>
 	    <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>

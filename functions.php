@@ -14,6 +14,7 @@ function theme_setup() {
 	set_post_thumbnail_size(120, 90, true);
 	add_image_size('square', 150, 150, true);
 	add_image_size('large-size', 1000, 1000, true);
+	add_image_size('header-image', 1000, 600, true);
 
 
 
