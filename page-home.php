@@ -4,8 +4,9 @@
   <div class="container">
 
     <div class="wrapper">
-      <img class="main-img" src="http://wedding-pictures.onewed.com/match/images/19344/rustic-wedding-reception-real-weddings-dessert-table-wedding-flower-centerpieces.original.jpg?1379120106" alt="a rustic wedding table">
-
+        <div class="main-img"><?php echo get_the_post_thumbnail($post_id, 'header-image'); ?></div> 
+        
+    
     <div class="content">
       <?php // Start the loop ?>
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
