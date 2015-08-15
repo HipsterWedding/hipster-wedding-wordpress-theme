@@ -24,10 +24,13 @@ img {
 }
 
 body {
-	background: white;
+	background-image: url("http://babydreambackdrops.com/images/BeachHouseHorizontal.jpg");
+	background-color: rgba(255, 255, 255, 0.7);
+	background-blend-mode: lighten;
 	color: black;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
+
 }
 
 .container {
@@ -37,6 +40,8 @@ body {
 .wrapper {
 	max-width: 1000px;
 	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.8);
+
 }
 
 .content {
@@ -44,6 +49,12 @@ body {
 	width: 65%;
 	margin-right: 40px;
 	margin-left: 10px;
+}
+
+.center-wrapper {
+
+	background: rgba(255, 255, 255, 0.6);
+	background: red;
 }
 
 .full {
@@ -88,8 +99,12 @@ h3 {
 // TOP NAV
 ul.menu {
 	padding: 20px;
+	
 }
+header ul.menu {
 
+	background: white;
+}
 ul.menu li a {
 	background: none;
 	text-transform: uppercase;
@@ -192,7 +207,7 @@ h3.widget-title {
 .post footer {
 	margin-top: 30px;
 	border: 4px double silver;
-	background: white;
+	background: none;
 
 }
 
