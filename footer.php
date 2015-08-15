@@ -1,9 +1,12 @@
 <footer>
   <div class="container">
+     <!-- <a href="#" class="cmn-t-underline"> -->
      <?php wp_nav_menu( array(
       'container' => false,
       'theme_locations' => 'footer-nav'
     )); ?>
+    <!-- </a> -->
+
     <p class="copyright">&copy; Tarah Kennedy & Anya Craig <?php echo date('Y'); ?></p>
 
   </div>
