@@ -1,5 +1,6 @@
 .sidebar {
 	width: 30%;
+	margin-left: 3%;
 	float: left;
 	ul {
 		margin: 0;
@@ -8,6 +9,12 @@
 			list-style: none;
 		}
 	}
+
+	p {
+		text-transform: none;
+		font-weight: 300;
+	}
+
 .portrait {
 	border-radius: 50%;
 	width: 200px;
