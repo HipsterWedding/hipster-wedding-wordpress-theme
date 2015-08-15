@@ -3,7 +3,7 @@
 <div class="main">
   <div class="container">
 
-    <div class="wrapper">
+    <div class="wrapper clearfix">
         <div class="main-img"><?php echo get_the_post_thumbnail($post_id, 'header-image'); ?></div> 
         
     
