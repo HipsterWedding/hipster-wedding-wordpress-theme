@@ -11,10 +11,11 @@ function theme_setup() {
 	*  a square size (also below). You can add more of your own crop
 	*  sizes with add_image_size. */
 	add_theme_support( 'post-thumbnails' );
-	set_post_thumbnail_size(120, 90, true);
+	set_post_thumbnail_size(700, 100, true);
 	add_image_size('square', 150, 150, true);
 	add_image_size('large-size', 1000, 1000, true);
 	add_image_size('header-image', 1000, 600, true);
+	// add_image_size('blog-img', 700, 300, true);
 
 
 
