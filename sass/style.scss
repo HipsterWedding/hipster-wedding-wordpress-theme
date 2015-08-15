@@ -41,7 +41,7 @@ body {
 	max-width: 1000px;
 	margin: 0 auto;
 	background: rgba(255, 255, 255, 0.8);
-	padding: 1%;
+	padding: 2%;
 
 }
 
@@ -56,16 +56,21 @@ body {
 
 h1 {
 	font-weight: bolder;
+	color: #00133B;
 }
 
 h2 {
-	text-transform: uppercase;
+	font-family: "Homemade Apple", cursive;
+	text-transform: none;
 	font-weight: 300;
+	color: #00133B;
 }
 
 h3 {
-	text-transform: uppercase;
+	font-family: "Homemade Apple", cursive;
+	text-transform: none;
 	font-weight: 300;
+	color: #00133B;
 }
 
 // HEADER
