@@ -25,7 +25,7 @@
 
 			<section class="entry-content">
 				<?php  if ( has_post_thumbnail() ) {
-					the_post_thumbnail('blog-img');
+					the_post_thumbnail();
 				} ?>
 				<?php the_content('Continue reading <span class="meta-nav">&rarr;</span>'); ?>
 				<?php
