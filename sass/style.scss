@@ -98,7 +98,36 @@ ul.menu li a {
 
 ul.menu li a:hover {
 	color: #E0FFFF;
-	text-shadow: 1px 1px 0 black;
+	// text-shadow: 1px 1px 0 black;
+}
+
+#menu-menu-1 a {
+  position: relative;
+  color: black;
+}
+
+#menu-menu-1 a:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 2;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  content: "";
+  transition: width 0.2s;
+}
+
+#menu-menu-1 ul li a {
+	padding: 0;
+}
+
+#menu-menu-1 a:hover:after {
+  width: 100%;
+}
+
+.menu-item a{
+	padding: 0;
 }
 
 // PAGE-HOME IMAGE
@@ -131,30 +160,11 @@ h3.widget-title {
 	text-align: center;
 }
 
-#menu-footer-menu a {
-  position: relative;
-  color: white;
-}
-#menu-footer-menu a:after {
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: 2;
-  width: 0;
-  height: 2px;
-  background-color: white;
-  content: "";
-  transition: width 0.2s;
-}
-#menu-footer-menu a:hover {
-  color: white;
-}
-#menu-footer-menu a:hover:after {
-  width: 100%;
-}
 
 
-
+h2.entry-title a {
+	color: black;
+}
 
 
 
