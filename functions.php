@@ -43,6 +43,19 @@ endif;
 add_action( 'after_setup_theme', 'theme_setup' );
 
 
+if (class_exists('MultiPostThumbnails')) {
+
+	new MultiPostThumbnails(array(
+
+	'label' => 'Secondary Image',
+
+	'id' => 'secondary-image',
+
+	'post_type' => 'post'
+ ) );
+
+ }
+
 /* Add all our JavaScript files here.
 We'll let WordPress add them to our templates automatically instead
 of writing our own script tags in the header and footer. */
