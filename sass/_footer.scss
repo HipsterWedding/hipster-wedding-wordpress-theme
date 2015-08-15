@@ -9,9 +9,38 @@ footer ul.menu li a {
 	color: white;
 }
 
+footer ul.menu li {
+	padding: 40px;
+}
+
+#menu-footer-menu a {
+	padding: 0;
+}
+
 .copyright {
 	font-family: "Lato", sans-serif;
 	font-weight: 200;
 	margin-top: 40px;
 }
 
+#menu-footer-menu a {
+  position: relative;
+  color: white;
+}
+#menu-footer-menu a:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 2;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  content: "";
+  transition: width 0.2s;
+}
+#menu-footer-menu a:hover {
+  color: #E0FFFF;
+}
+#menu-footer-menu a:hover:after {
+  width: 100%;
+}
