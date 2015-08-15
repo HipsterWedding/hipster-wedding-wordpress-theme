@@ -24,7 +24,21 @@
       </h2>
 
 			<section class="entry-content">
+				<?php  if ( has_post_thumbnail() ) {
+					the_post_thumbnail('blog-img');
+				} ?>
 				<?php the_content('Continue reading <span class="meta-nav">&rarr;</span>'); ?>
+				<?php
+
+				if (class_exists('MultiPostThumbnails')) :
+
+				MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image');
+
+				endif;
+
+				 ?>
+
+				<?php the_post_ ?>
 				<?php wp_link_pages( array(
           'before' => '<div class="page-link"> Pages:',
           'after' => '</div>'
