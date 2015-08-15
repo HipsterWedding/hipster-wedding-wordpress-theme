@@ -15,7 +15,7 @@ function theme_setup() {
 	add_image_size('square', 150, 150, true);
 	add_image_size('large-size', 1000, 1000, true);
 	add_image_size('header-image', 1000, 600, true);
-	// add_image_size('blog-img', 700, 300, true);
+	add_image_size('dragon', 999, 300, true);
 
 
 
