@@ -73,7 +73,7 @@ h2 {
 	font-family: "Homemade Apple", cursive;
 	text-transform: none;
 	font-weight: 300;
-	color: #00133B;
+	color: #FF493F;
 }
 
 h3 {
@@ -99,14 +99,16 @@ h3 {
 	color: #000E2E;
 	// text-shadow: 2px 2px 0 black;
 	text-transform: none;
+
+
 	
 }
 .header {
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	padding-top: 25px;
-    height: 300px;
+	padding-top: 20px;
+    height: 315px;
     background: #E0FFFF;
     text-transform: uppercase;
 }
@@ -182,28 +184,7 @@ ul.menu li a:hover {
 }
 
 
-// SIDEBAR
 
-// TEXT AREA
-.textwidget {
-	color: black;
-	font-family: 'Lato', sans-serif;
-	text-transform: uppercase;
-	font-weight: 200;
-	margin-bottom: 40px;
-}
-
-.portrait {
-	margin: 50px auto 0;
-}
-
-h3.widget-title {
-	text-align: center;
-}
-
-.text-widget {
-	text-align: center;
-}
 
 
 //Blog Page Posts
