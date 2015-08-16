@@ -10,6 +10,8 @@
   <link href='http://fonts.googleapis.com/css?family=Homemade+Apple|Fredericka+the+Great' rel='stylesheet' type='text/css'>
   <?php // Load our CSS ?>
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+  <link rel="icon" type="image/png" href="Images/windingroad.png">
+
 
   <?php wp_head(); ?>
 </head>
