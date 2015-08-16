@@ -15,6 +15,20 @@
 		font-weight: 300;
 	}
 
+	.widget_search {
+		margin-top: 20px;
+	}
+
+	li form input.searchsubmit {
+		background: none;
+		margin-left: 10px;
+		border: 4px double silver;
+	}
+
+	input#s {
+		height: 26px;
+	}
+
 .portrait {
 	border-radius: 50%;
 	width: 200px;
@@ -23,5 +37,7 @@
 	margin-top: 50px;
 	overflow: hidden;
 }
+
+
 
 }

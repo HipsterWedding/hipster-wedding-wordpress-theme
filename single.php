@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<div class="single-header"> <?php get_header(); ?></div>
 
 <div class="main">
   <div class="container">
@@ -15,9 +15,11 @@
             the_post_thumbnail();
           } ?>
           <div class="spacer"></div>
+
           <div class="entry-meta">
             <?php hackeryou_posted_on(); ?>
           </div><!-- .entry-meta -->
+
 
           <div class="entry-content">
             <?php the_content(); ?>
@@ -27,9 +29,15 @@
             )); ?>
           </div><!-- .entry-content -->
 
+          <footer>
+            <p><?php the_tags('Tags: ', ', ', '<br>'); ?> Posted in <?php the_category(', '); ?>  &bull;</p>
+            <p>  <?php comments_popup_link('Respond to this post &raquo;', '1 Response &raquo;', '% Responses &raquo;'); ?>  &bull;</p>
+            <p> <?php edit_post_link( 'Edit', '<span class="edit-link">', '</span>' ); ?></p>
+          </footer>
+
           <div class="entry-utility">
-            <?php hackeryou_posted_in(); ?>
-            <?php edit_post_link( 'Edit', '<span class="edit-link">', '</span>' ); ?>
+            <!-- <?php hackeryou_posted_in(); ?> -->
+           <!-- <?php edit_post_link( 'Edit', '<span class="edit-link">', '</span>' ); ?>-->
           </div><!-- .entry-utility -->
         </div><!-- #post-## -->
 
