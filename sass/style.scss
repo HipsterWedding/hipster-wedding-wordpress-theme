@@ -24,7 +24,7 @@ Default Styling
 .spacer {
 	width: 100%;
 	height: 20px;
-}
+} /* This is just used to create space in certain places
 
 /* MAIN CLASSES */
 
@@ -52,7 +52,6 @@ body {
 	background: rgba(255, 255, 255, 0.8);
 	padding-left: 2%;
 	padding-right: 2%;
-
 }
 
 .content {
@@ -67,6 +66,7 @@ body {
 h1 {
 	font-weight: bolder;
 	color: #00133B;
+	text-shadow: 1px 1px 0 #FF493F;
 }
 
 h2 {
@@ -83,13 +83,20 @@ h3 {
 	color: #00133B;
 }
 
-/* This controls the blog post titles on the single.php page */
+/* SINGLE.PHP STYLES */
 
+.footer-top, 
+.footer-bottom {
+	display: block;
+}
 .post h1.entry-title {
 	color: #FF493F;
 	font-family: "Homemade Apple", cursive;
 	font-size: 1.7em;
-}
+	text-shadow: none;
+}/* This controls the blog post titles on the single.php page */
+
+
 // HEADER
 
 
@@ -212,10 +219,11 @@ ul.menu li a:hover {
 }
 
 .post footer {
-	height: 70px;
+	height: 100px;
 	border: 4px double silver;
 	background: none;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 
@@ -244,6 +252,7 @@ input#submit {
 	border: 4px double silver;
 	margin-top: 20px;
 }
+
 
 
 
