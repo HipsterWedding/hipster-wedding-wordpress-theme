@@ -24,10 +24,13 @@ img {
 }
 
 body {
-	background: white;
+	background-image: url("http://babydreambackdrops.com/images/BeachHouseHorizontal.jpg");
+	background-color: rgba(255, 255, 255, 0.7);
+	background-blend-mode: lighten;
 	color: black;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
+
 }
 
 .container {
@@ -37,13 +40,14 @@ body {
 .wrapper {
 	max-width: 1000px;
 	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.8);
+	padding: 2%;
+
 }
 
 .content {
 	float: left;
 	width: 65%;
-	margin-right: 40px;
-	margin-left: 10px;
 }
 
 .full {
@@ -52,31 +56,46 @@ body {
 
 h1 {
 	font-weight: bolder;
+	color: #00133B;
 }
 
 h2 {
-	text-transform: uppercase;
+	font-family: "Homemade Apple", cursive;
+	text-transform: none;
 	font-weight: 300;
+	color: #00133B;
 }
 
 h3 {
-	text-transform: uppercase;
+	font-family: "Homemade Apple", cursive;
+	text-transform: none;
 	font-weight: 300;
+	color: #00133B;
 }
 
 // HEADER
+
+
+
+.header h1 a {
+	font-family: "Homemade Apple", cursive;
+	color: #000E2E;
+	// text-shadow: 2px 2px 0 black;
+	text-transform: none;
+	
+}
 .header {
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	padding-top: 35px;
+	padding-top: 25px;
     height: 300px;
     background: #E0FFFF;
     text-transform: uppercase;
 }
 
 .header a {
-	color: black;
+	// color: black;
 	font-size: 45px;
 	font-weight: 200;
 }
@@ -88,8 +107,12 @@ h3 {
 // TOP NAV
 ul.menu {
 	padding: 20px;
+	
 }
+header ul.menu {
 
+	background: white;
+}
 ul.menu li a {
 	background: none;
 	text-transform: uppercase;
@@ -207,7 +230,7 @@ h2.entry-title a {
 .post footer {
 	margin-top: 30px;
 	border: 4px double silver;
-	background: white;
+	background: none;
 
 }
 

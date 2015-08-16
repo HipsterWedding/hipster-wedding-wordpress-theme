@@ -7,7 +7,7 @@
   <title><?php  wp_title('|', true, 'right'); ?></title>   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
   <!-- font awesome fonts -->
   <link href='http://fonts.googleapis.com/css?family=Lato:400,100,300italic,300' rel='stylesheet' type='text/css'>
-
+  <link href='http://fonts.googleapis.com/css?family=Homemade+Apple|Fredericka+the+Great' rel='stylesheet' type='text/css'>
   <?php // Load our CSS ?>
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 
@@ -33,9 +33,6 @@
     </h1>
     </div>
 
-
-   
-    <!--   <?php the_post_thumbnail('large-size'); ?> -->
     
 
     
