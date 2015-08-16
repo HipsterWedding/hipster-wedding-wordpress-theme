@@ -2,9 +2,8 @@
 
 <div class="main">
   <div class="container">
-    <div class="wrapper">
-      <div class="main-img"><?php echo get_the_post_thumbnail($post_id, 'header-image'); ?></div> 
-    </div>
+    <div class="wrapper clearfix">
+      <!-- <div class="main-img"><?php echo get_the_post_thumbnail($post_id, 'header-image'); ?></div>  -->
 
     <div class="content">
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
@@ -12,6 +11,10 @@
         <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
           <h1 class="entry-title"><?php the_title(); ?></h1>
 
+          <?php  if ( has_post_thumbnail() ) {
+            the_post_thumbnail();
+          } ?>
+          <div class="spacer"></div>
           <div class="entry-meta">
             <?php hackeryou_posted_on(); ?>
           </div><!-- .entry-meta -->
@@ -43,6 +46,7 @@
 
     <?php get_sidebar(); ?>
 
+    </div> <!-- /.wrapper -->
   </div> <!-- /.container -->
 </div> <!-- /.main -->
 

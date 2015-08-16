@@ -38,6 +38,10 @@
 
 				 ?>
 
+				  <div class="entry-meta">
+            <?php hackeryou_posted_on(); ?>
+          </div><!-- .entry-meta -->
+				
 				<?php the_post_ ?>
 				<?php wp_link_pages( array(
           'before' => '<div class="page-link"> Pages:',
