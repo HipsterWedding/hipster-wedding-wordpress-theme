@@ -73,6 +73,7 @@ img.wp-post-image {
 
 h1 {
 	font-weight: bolder;
+	font-size: 2em;
 	color: #00133B;
 	// text-shadow: 1px 1px 0 #FF493F;
 	transition: .5s all ease-in-out;
@@ -83,8 +84,8 @@ h2 {
 	// text-transform: none;
 	text-transform: uppercase;
 	font-weight: 300;
-	// color: #00133B;
-	color: #FF493F;
+	color: #00133B;
+	// color: #FF493F;
 }
 
 h3 {
@@ -102,10 +103,12 @@ h3 {
 	display: block;
 }
 .post h1.entry-title {
-	color: #FF493F;
-	font-family: "Homemade Apple", cursive;
+	// color: #FF493F;
+	// font-family: "Homemade Apple", cursive;
 	font-size: 1.7em;
 	text-shadow: none;
+	text-transform: uppercase;
+	font-weight: 300;
 }/* This controls the blog post titles on the single.php page */
 
 
@@ -118,6 +121,7 @@ h3 {
 	color: #000E2E;
 	text-transform: uppercase;
 	transition: .5s all ease-in-out;
+	font-size: 1.6em;
 }
 
 .header {
@@ -144,7 +148,7 @@ h3 {
 
 .blog-header .header,
 .single-header .header {
-	height: 170px;
+	height: 155px;
 }
 
 // TOP NAV
