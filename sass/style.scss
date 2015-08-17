@@ -44,7 +44,7 @@ body {
 }
 
 a {
-	color: lightblue;
+	color: #02A9E8;
 }
 
 .container {
@@ -389,6 +389,10 @@ input#submit {
 		display: block;
 		padding: 0;
 		font-size: 1.2em;
+	}
+
+	#menu-menu-1 a {
+		margin: 0;
 	}
 
 	footer ul.menu li,
