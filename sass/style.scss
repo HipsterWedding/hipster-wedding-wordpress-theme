@@ -19,6 +19,15 @@ Default Styling
 ====================================
 */
 
+/* HELPER CLASSES */
+
+.spacer {
+	width: 100%;
+	height: 20px;
+}
+
+/* MAIN CLASSES */
+
 img {
 	max-width: 100%;
 }
@@ -41,8 +50,8 @@ body {
 	max-width: 1000px;
 	margin: 0 auto;
 	background: rgba(255, 255, 255, 0.8);
-	padding: 2%;
-
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
 .content {
@@ -63,7 +72,11 @@ h2 {
 	font-family: "Homemade Apple", cursive;
 	text-transform: none;
 	font-weight: 300;
+<<<<<<< HEAD
 	color: #00133B;
+=======
+	color: #FF493F;
+>>>>>>> 00fb76eef7ffea2b7f9df3b7ff16823186d09eb2
 }
 
 h3 {
@@ -73,6 +86,13 @@ h3 {
 	color: #00133B;
 }
 
+/* This controls the blog post titles on the single.php page */
+
+.post h1.entry-title {
+	color: #FF493F;
+	font-family: "Homemade Apple", cursive;
+	font-size: 1.7em;
+}
 // HEADER
 
 
@@ -82,14 +102,24 @@ h3 {
 	color: #000E2E;
 	// text-shadow: 2px 2px 0 black;
 	text-transform: none;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 00fb76eef7ffea2b7f9df3b7ff16823186d09eb2
 	
 }
 .header {
 	display: flex;
 	justify-content: center;
 	width: 100%;
+<<<<<<< HEAD
 	padding-top: 25px;
     height: 300px;
+=======
+	padding-top: 20px;
+    height: 315px;
+>>>>>>> 00fb76eef7ffea2b7f9df3b7ff16823186d09eb2
     background: #E0FFFF;
     text-transform: uppercase;
 }
@@ -100,7 +130,8 @@ h3 {
 	font-weight: 200;
 }
 
-.blog-header .header {
+.blog-header .header,
+.single-header .header {
 	height: 170px;
 }
 
@@ -125,7 +156,6 @@ ul.menu li a {
 
 ul.menu li a:hover {
 	color: #E0FFFF;
-	// text-shadow: 1px 1px 0 black;
 }
 
 #menu-menu-1 a {
@@ -162,31 +192,6 @@ ul.menu li a:hover {
 	margin-top: -150px;
 	border: 10px solid white;
 }
-
-
-// SIDEBAR
-
-// TEXT AREA
-.textwidget {
-	color: black;
-	font-family: 'Lato', sans-serif;
-	text-transform: uppercase;
-	font-weight: 200;
-	margin-bottom: 40px;
-}
-
-.portrait {
-	margin: 50px auto 0;
-}
-
-h3.widget-title {
-	text-align: center;
-}
-
-.text-widget {
-	text-align: center;
-}
-
 
 //Blog Page Posts
 h2.entry-title a {
@@ -228,10 +233,18 @@ h2.entry-title a {
 }
 
 .post footer {
-	margin-top: 30px;
+	height: 70px;
 	border: 4px double silver;
 	background: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
+
+}
+
+.post footer p {
+	display: inline;
 }
 
 .post footer a {
@@ -239,12 +252,21 @@ h2.entry-title a {
 	color: #4486FF;
 }
 
->>>>>>> 3a7b734d5dd813c7461386e7bd7de91a11308135
+
  .post footer p {
  	color: #25007F;
  	text-align: center;
  }
 
+/* COMMENT STYLES */
+
+input#submit {
+	width: 100px;
+	height: 30px;
+	background: none;
+	border: 4px double silver;
+	margin-top: 20px;
+}
 
 
 

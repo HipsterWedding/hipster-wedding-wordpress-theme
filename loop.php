@@ -27,7 +27,7 @@
 				<?php  if ( has_post_thumbnail() ) {
 					the_post_thumbnail();
 				} ?>
-				<?php the_content('Continue reading <span class="meta-nav">&rarr;</span>'); ?>
+				<?php the_excerpt('Continue reading <span class="meta-nav">&rarr;</span>'); ?>
 				<?php
 
 				if (class_exists('MultiPostThumbnails')) :
@@ -38,6 +38,10 @@
 
 				 ?>
 
+			<div class="entry-meta">
+           	 <?php hackeryou_posted_on(); ?>
+          	</div><!-- .entry-meta -->
+				
 				<?php the_post_ ?>
 				<?php wp_link_pages( array(
           'before' => '<div class="page-link"> Pages:',
@@ -45,11 +49,11 @@
         )); ?>
 			</section><!-- .entry-content -->
 
-			<footer>
+			<!-- <footer>
 				<p><?php the_tags('Tags: ', ', ', '<br>'); ?> Posted in <?php the_category(', '); ?></p>
         <p><?php comments_popup_link('Respond to this post &raquo;', '1 Response &raquo;', '% Responses &raquo;'); ?></p>
         <p><?php edit_post_link( 'Edit', '<span class="edit-link">', '</span>' ); ?></p>
-			</footer>
+			</footer> -->
 
 		</article><!-- #post-## -->
 
