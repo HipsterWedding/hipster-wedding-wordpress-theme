@@ -129,9 +129,9 @@ h3 {
 	//padding-top: 20px;
 	 //height: 315px;
 	background: #F0F8FF;
-    // background-image: url(http://subtlepatterns.com/patterns/contemporary_china.png);
-    // background-color: rgba(224,255,255,0.9);
-    // background-blend-mode: lighten;
+ //    background-image: url(http://subtlepatterns.com/patterns/contemporary_china.png);
+ //    background-color: rgba(224,255,255,0.9);
+ //    background-blend-mode: lighten;
     text-transform: uppercase;
     // transition: .5s all ease-in-out;
 }
@@ -241,6 +241,7 @@ h2.entry-title a {
 
 .post {
 	margin-top: 50px;
+	border-top: 1px solid black;
 }
 
 .post footer,
@@ -411,5 +412,10 @@ input#submit {
 }
 
 
+//ABOUT PAGE
+
+.content p {
+	// line-height: 60px;
+}
 
 
