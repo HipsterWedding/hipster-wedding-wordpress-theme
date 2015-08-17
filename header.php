@@ -8,6 +8,7 @@
   <!-- font awesome fonts -->
   <link href='http://fonts.googleapis.com/css?family=Lato:400,100,300italic,300' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Homemade+Apple|Fredericka+the+Great' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <?php // Load our CSS ?>
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
   <link rel="icon" type="image/png" href="Images/windingroad.png">
