@@ -30,6 +30,7 @@ Default Styling
 
 img {
 	max-width: 100%;
+	height: auto;
 }
 
 body {
@@ -52,10 +53,8 @@ body {
 	background: rgba(255, 255, 255, 0.8);
 	padding-left: 2%;
 	padding-right: 2%;
-<<<<<<< HEAD
-=======
 	transition: .5s all ease-in-out;
->>>>>>> 489a797e41b5851095d5972b1e03b6021083d36e
+// not sure why transition is here - leaving in just incase
 }
 
 .content {
@@ -75,24 +74,23 @@ img.wp-post-image {
 h1 {
 	font-weight: bolder;
 	color: #00133B;
-	text-shadow: 1px 1px 0 #FF493F;
+	// text-shadow: 1px 1px 0 #FF493F;
 	transition: .5s all ease-in-out;
 }
 
 h2 {
-	font-family: "Homemade Apple", cursive;
-	text-transform: none;
+	// font-family: "Homemade Apple", cursive;
+	// text-transform: none;
+	text-transform: uppercase;
 	font-weight: 300;
-<<<<<<< HEAD
-	color: #00133B;
-=======
+	// color: #00133B;
 	color: #FF493F;
->>>>>>> 00fb76eef7ffea2b7f9df3b7ff16823186d09eb2
 }
 
 h3 {
-	font-family: "Homemade Apple", cursive;
-	text-transform: none;
+	// font-family: "Homemade Apple", cursive;
+	// text-transform: none;
+	text-transform: uppercase;
 	font-weight: 300;
 	color: #00133B;
 }
@@ -116,38 +114,24 @@ h3 {
 
 
 .header h1 a {
-	font-family: "Homemade Apple", cursive;
+	// font-family: "Homemade Apple", cursive;
 	color: #000E2E;
-	text-transform: none;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 00fb76eef7ffea2b7f9df3b7ff16823186d09eb2
-	
-=======
+	text-transform: uppercase;
 	transition: .5s all ease-in-out;
->>>>>>> 489a797e41b5851095d5972b1e03b6021083d36e
 }
+
 .header {
 	display: flex;
 	justify-content: center;
 	width: 100%;
-<<<<<<< HEAD
 	padding-top: 25px;
     height: 300px;
-=======
-	padding-top: 20px;
-    height: 315px;
-<<<<<<< HEAD
->>>>>>> 00fb76eef7ffea2b7f9df3b7ff16823186d09eb2
-    background: #E0FFFF;
-=======
+//padding-top: 20px;
+ //height: 315px;
+// background: #E0FFFF;
     background-image: url(http://subtlepatterns.com/patterns/contemporary_china.png);
     background-color: rgba(224,255,255,0.9);
     background-blend-mode: lighten;
->>>>>>> 489a797e41b5851095d5972b1e03b6021083d36e
     text-transform: uppercase;
     transition: .5s all ease-in-out;
 }
@@ -248,8 +232,7 @@ h2.entry-title a {
 	color: #4486FF;
 }
 
-<<<<<<< HEAD
-=======
+
 /*POST STYLES*/
 
 .content {
@@ -260,7 +243,8 @@ h2.entry-title a {
 	margin-top: 50px;
 }
 
-.post footer {
+.post footer,
+.attachment footer {
 	height: 100px;
 	border: 4px double silver;
 	background: none;
@@ -302,14 +286,23 @@ input#submit {
 @media (max-width:1165px) {
 
 	.wrapper {
-		max-width: 800px;
+		max-width: 850px;
+	}
+
+	.widget_search {
+		text-align: center;
+	}
+	
+
+	li form input.searchsubmit {
+		margin-top: 10px;
 	}
 }
 
 @media (max-width: 890px) {
 	
 	.wrapper {
-		max-width: 600px;
+		max-width: 650px;
 	}
 
 	.sidebar {
@@ -319,9 +312,18 @@ input#submit {
 	.content {
 		width: 100%
 	}
+	.content h2 {
+		text-align: center;
+	}
 
 	header ul.menu {
 		text-align: center;
+	}
+
+	footer ul.menu li,
+	footer ul.menu li a {
+		padding-left:20px;
+		padding-right: 20px;
 	}
 }
 
@@ -336,40 +338,75 @@ input#submit {
 		margin-right: 0;
 		margin-left: 0;
 	}
+
+	footer ul.menu li,
+	footer ul.menu li a {
+		padding-left:10px;
+		padding-right: 10px;
+	}
 }
 
 @media (max-width: 510px) {
 	.wrapper {
 		max-width: 390px;
+		padding-left: 3%;
+		padding-right: 3%;
 	}
 	header ul.menu li a {
 		// display: block;
 		padding: 0px;
 	}
 
-	.wrapper {
-		padding-left: 3%;
-		padding-right: 3%;
+	h2 {
+		font-size: 1.3em;
 	}
+
+
 }
 
 @media (max-width: 485px) {
+	.wrapper {
+		max-width: 325px;
+	}
+
 	header ul.menu li a {
 		display: block;
 		padding: 0;
 		font-size: 1.2em;
 	}
 
+	footer ul.menu li,
+	footer ul.menu li a {
+		display: block;
+		padding: 5px;
+		font-size: 1.2em;
+	}
+
+	footer.clearfix {
+		height: 330px;
+	}
+
 }
 
 @media (max-width: 425px ) {
+	.wrapper {
+		max-width: 290px;
+	}
+
 	.header h1 a {
 		font-size: 1.1em;
+	}
+
+	.header {
+		height: 295px;
 	}
 
 	.blog-header .header,
 	.single-header .header {
 		height: 150px;
+	}
+	.content {
+		text-align: center;
 	}
 }
 

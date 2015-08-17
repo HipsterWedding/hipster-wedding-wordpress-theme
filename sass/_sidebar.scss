@@ -20,6 +20,10 @@
 		margin-top: 20px;
 		margin-bottom: 50px;
 	}
+	
+	input#s {
+		height: 26px;
+	}
 
 	li form input.searchsubmit {
 		background: none;
@@ -27,41 +31,40 @@
 		border: 4px double silver;
 	}
 
-	input#s {
-		height: 26px;
+
+
+	.portrait {
+		border-radius: 50%;
+		width: 200px;
+		height: 200px;
+		// background: white;
+		margin-top: 50px;
+		overflow: hidden;
 	}
 
+	// SIDEBAR
 
-.portrait {
-	border-radius: 50%;
-	width: 200px;
-	height: 200px;
-	// background: white;
-	margin-top: 50px;
-	overflow: hidden;
-}
+	// TEXT AREA
+	.textwidget {
+		color: black;
+		font-family: 'Lato', sans-serif;
+		text-transform: uppercase;
+		font-weight: 200;
+		margin-bottom: 40px;
+	}
 
-// SIDEBAR
+	.portrait {
+		margin: 50px auto 0;
+	}
 
-// TEXT AREA
-.textwidget {
-	color: black;
-	font-family: 'Lato', sans-serif;
-	text-transform: uppercase;
-	font-weight: 200;
-	margin-bottom: 40px;
-}
+	h3.widget-title {
+		text-align: center;
+	}
 
-.portrait {
-	margin: 50px auto 0;
-}
+	.text-widget {
+		text-align: center;
+	}
 
-h3.widget-title {
-	text-align: center;
-}
-
-.text-widget {
-	text-align: center;
 }
 
 
