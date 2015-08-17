@@ -30,6 +30,7 @@ Default Styling
 
 img {
 	max-width: 100%;
+	height: auto;
 }
 
 body {
@@ -225,7 +226,8 @@ ul.menu li a:hover {
 	margin-top: 50px;
 }
 
-.post footer {
+.post footer,
+.attachment footer {
 	height: 100px;
 	border: 4px double silver;
 	background: none;
@@ -265,14 +267,23 @@ input#submit {
 @media (max-width:1165px) {
 
 	.wrapper {
-		max-width: 800px;
+		max-width: 850px;
+	}
+
+	.widget_search {
+		text-align: center;
+	}
+	
+
+	li form input.searchsubmit {
+		margin-top: 10px;
 	}
 }
 
 @media (max-width: 890px) {
 	
 	.wrapper {
-		max-width: 600px;
+		max-width: 650px;
 	}
 
 	.sidebar {
@@ -282,9 +293,18 @@ input#submit {
 	.content {
 		width: 100%
 	}
+	.content h2 {
+		text-align: center;
+	}
 
 	header ul.menu {
 		text-align: center;
+	}
+
+	footer ul.menu li,
+	footer ul.menu li a {
+		padding-left:20px;
+		padding-right: 20px;
 	}
 }
 
@@ -299,40 +319,75 @@ input#submit {
 		margin-right: 0;
 		margin-left: 0;
 	}
+
+	footer ul.menu li,
+	footer ul.menu li a {
+		padding-left:10px;
+		padding-right: 10px;
+	}
 }
 
 @media (max-width: 510px) {
 	.wrapper {
 		max-width: 390px;
+		padding-left: 3%;
+		padding-right: 3%;
 	}
 	header ul.menu li a {
 		// display: block;
 		padding: 0px;
 	}
 
-	.wrapper {
-		padding-left: 3%;
-		padding-right: 3%;
+	h2 {
+		font-size: 1.3em;
 	}
+
+
 }
 
 @media (max-width: 485px) {
+	.wrapper {
+		max-width: 325px;
+	}
+
 	header ul.menu li a {
 		display: block;
 		padding: 0;
 		font-size: 1.2em;
 	}
 
+	footer ul.menu li,
+	footer ul.menu li a {
+		display: block;
+		padding: 5px;
+		font-size: 1.2em;
+	}
+
+	footer.clearfix {
+		height: 330px;
+	}
+
 }
 
 @media (max-width: 425px ) {
+	.wrapper {
+		max-width: 290px;
+	}
+
 	.header h1 a {
 		font-size: 1.1em;
+	}
+
+	.header {
+		height: 295px;
 	}
 
 	.blog-header .header,
 	.single-header .header {
 		height: 150px;
+	}
+	.content {
+		text-align: center;
 	}
 }
 
