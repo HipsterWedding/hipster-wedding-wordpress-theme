@@ -256,7 +256,11 @@ h2.entry-title a {
 
 .post {
 	margin-top: 50px;
-	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.entry-meta {
+	margin-bottom: 35px;
 }
 
 .post footer,
