@@ -54,6 +54,7 @@ body {
 	padding-left: 2%;
 	padding-right: 2%;
 	transition: .5s all ease-in-out;
+// not sure why transition is here - leaving in just incase
 }
 
 .content {
@@ -73,20 +74,23 @@ img.wp-post-image {
 h1 {
 	font-weight: bolder;
 	color: #00133B;
-	text-shadow: 1px 1px 0 #FF493F;
+	// text-shadow: 1px 1px 0 #FF493F;
 	transition: .5s all ease-in-out;
 }
 
 h2 {
-	font-family: "Homemade Apple", cursive;
-	text-transform: none;
+	// font-family: "Homemade Apple", cursive;
+	// text-transform: none;
+	text-transform: uppercase;
 	font-weight: 300;
+	// color: #00133B;
 	color: #FF493F;
 }
 
 h3 {
-	font-family: "Homemade Apple", cursive;
-	text-transform: none;
+	// font-family: "Homemade Apple", cursive;
+	// text-transform: none;
+	text-transform: uppercase;
 	font-weight: 300;
 	color: #00133B;
 }
@@ -110,17 +114,21 @@ h3 {
 
 
 .header h1 a {
-	font-family: "Homemade Apple", cursive;
+	// font-family: "Homemade Apple", cursive;
 	color: #000E2E;
-	text-transform: none;
+	text-transform: uppercase;
 	transition: .5s all ease-in-out;
 }
+
 .header {
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	padding-top: 20px;
-    height: 315px;
+	padding-top: 25px;
+    height: 300px;
+//padding-top: 20px;
+ //height: 315px;
+// background: #E0FFFF;
     background-image: url(http://subtlepatterns.com/patterns/contemporary_china.png);
     background-color: rgba(80,255,255,0.5);
     background-blend-mode: overlay;
@@ -160,7 +168,6 @@ ul.menu li a {
 
 ul.menu li a:hover {
 	color: #E0FFFF;
-	// text-shadow: 1px 1px 0 black;
 }
 
 #menu-menu-1 a {
@@ -198,23 +205,33 @@ ul.menu li a:hover {
 	border: 10px solid white;
 }
 
-
-
-
-
 //Blog Page Posts
-// h2.entry-title a {
-// 	color: black;
-// }
+h2.entry-title a {
+	color: black;
+}
 
-// footer {
-// 	background: none;
-// }
+/*POST STYLES*/
 
-// footer a {
-// 	color: black;
-// 	font-size: 12px;
-// }
+.content {
+	margin-bottom: 70px;
+}
+
+.post {
+	margin-top: 50px;
+}
+
+.post footer {
+	margin-top: 30px;
+	border: 4px double silver;
+	background: white;
+
+}
+
+.post footer a {
+	text-align: center;
+	color: #4486FF;
+}
+
 
 /*POST STYLES*/
 
@@ -236,6 +253,7 @@ ul.menu li a:hover {
 	align-items: center;
 	justify-content: center;
 
+
 }
 
 .post footer p {
@@ -246,6 +264,7 @@ ul.menu li a:hover {
 	text-align: center;
 	color: #4486FF;
 }
+
 
  .post footer p {
  	color: #25007F;
