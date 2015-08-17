@@ -30,9 +30,15 @@
           </div><!-- .entry-content -->
 
           <footer>
-            <p><?php the_tags('Tags: ', ', ', '<br>'); ?> Posted in <?php the_category(', '); ?>  &bull;</p>
-            <p>  <?php comments_popup_link('Respond to this post &raquo;', '1 Response &raquo;', '% Responses &raquo;'); ?>  &bull;</p>
-            <p> <?php edit_post_link( 'Edit', '<span class="edit-link">', '</span>' ); ?></p>
+
+            <div class="footer-top">
+              <p><?php the_tags('Tags: ', ', ', '<br>'); ?> Posted in <?php the_category(', '); ?> </p>
+            </div>
+
+            <div class="footer-bottom">
+              <p>  <?php comments_popup_link('Respond to this post &raquo;', '1 Response &raquo;', '% Responses &raquo;'); ?>  &bull;</p>
+              <p> <?php edit_post_link( 'Edit', '<span class="edit-link">', '</span>' ); ?></p>
+            </div>
           </footer>
 
           <div class="entry-utility">
