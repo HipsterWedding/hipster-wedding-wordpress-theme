@@ -7,7 +7,7 @@
         <div class="main-img"><?php echo get_the_post_thumbnail($post_id, 'header-image'); ?></div> 
         
     
-    <div class="content">
+    <div class="content full">
       <?php // Start the loop ?>
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
@@ -18,7 +18,7 @@
       <?php endwhile; // end the loop?>
     </div> <!-- /,content -->
 
-    <?php get_sidebar(); ?>
+    
     </div><!-- /.wrapper -->
   </div> <!-- /.container -->
 </div> <!-- /.main -->

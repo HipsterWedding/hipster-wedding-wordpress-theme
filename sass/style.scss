@@ -23,7 +23,7 @@ Default Styling
 
 .spacer {
 	width: 100%;
-	height: 20px;
+	// height: 20px;
 } /* This is just used to create space in certain places
 
 /* MAIN CLASSES */
@@ -41,6 +41,10 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 
+}
+
+a {
+	color: lightblue;
 }
 
 .container {
@@ -134,9 +138,9 @@ h3 {
 	//padding-top: 20px;
 	 //height: 315px;
 	background: #F0F8FF;
-    // background-image: url(http://subtlepatterns.com/patterns/contemporary_china.png);
-    // background-color: rgba(224,255,255,0.9);
-    // background-blend-mode: lighten;
+ //    background-image: url(http://subtlepatterns.com/patterns/contemporary_china.png);
+ //    background-color: rgba(224,255,255,0.9);
+ //    background-blend-mode: lighten;
     text-transform: uppercase;
     // transition: .5s all ease-in-out;
 }
@@ -215,6 +219,12 @@ h2.entry-title a {
 	color: black;
 }
 
+//ABOUT PAGE
+
+
+
+
+
 /*POST STYLES*/
 
 .content {
@@ -246,6 +256,7 @@ h2.entry-title a {
 
 .post {
 	margin-top: 50px;
+	border-top: 1px solid black;
 }
 
 .post footer,
@@ -414,6 +425,9 @@ input#submit {
 		text-align: center;
 	}
 }
+
+
+
 
 
 
